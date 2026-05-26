@@ -3,7 +3,8 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const db = new Database(resolve(__dirname, "../database.sqlite"));
+const db = new Database(resolve(__dirname, "database.sqlite"));
+console.log("Database path:", resolve(__dirname, "database.sqlite"));
 
 db.pragma("journal_mode = WAL");
 db.pragma("foreign_keys = ON");
