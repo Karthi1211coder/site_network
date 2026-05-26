@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: #f0fdfa; color: #1e293b; -webkit-font-smoothing: antialiased; }
+::selection { background: #ccfbf1; color: #0f766e; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f0fdfa; }
+::-webkit-scrollbar-thumb { background: #99f6e4; border-radius: 4px; }
+@keyframes slideIn { from { transform: translateX(-100%); } to { transform: translateX(0); } }
