@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      "/graphql": "https://site-network.onrender.com/",
+      "/graphql": "https://site-network.onrender.com",
     },
   },
 });
